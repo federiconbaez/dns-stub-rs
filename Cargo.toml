@@ -15,3 +15,6 @@ name = "dns_stub"
 [[bin]]
 name = "dnsstub"
 path = "src/main.rs"
+
+[dev-dependencies]
+proptest = "1"
