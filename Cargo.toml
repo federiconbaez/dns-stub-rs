@@ -1,0 +1,13 @@
+[package]
+name = "dns-stub-rs"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+license = "Apache-2.0"
+description = "Stub DNS resolver for A/AAAA over UDP with TCP fallback, CNAME chains, positive and negative TTL cache"
+repository = "https://github.com/federiconbaez/dns-stub-rs"
+keywords = ["dns", "resolver", "udp", "cache", "networking"]
+categories = ["network-programming"]
+
+[lib]
+name = "dns_stub"
