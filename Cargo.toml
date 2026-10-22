@@ -11,3 +11,7 @@ categories = ["network-programming"]
 
 [lib]
 name = "dns_stub"
+
+[[bin]]
+name = "dnsstub"
+path = "src/main.rs"
